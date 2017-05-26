@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <cn.neillee.composedmenu.LinearFlickMenu
+            android:id="@+id/lfm1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:position="left_top"
+            app:radius="300dp"/>
+
+        <cn.neillee.composedmenu.LinearFlickMenu
+            android:id="@+id/lfm2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:position="left_bottom"
+            app:radius="300dp"/>
+
+        <cn.neillee.composedmenu.LinearFlickMenu
+            android:id="@+id/lfm3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:position="right_top"
+            app:radius="300dp"/>
+
+        <cn.neillee.composedmenu.LinearFlickMenu
+            android:id="@+id/lfm4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:position="right_bottom"
+            app:radius="300dp"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ComposeMenuSample</string>
+    <string name="action_settings">Settings</string>
+    <string name="test_lfm">Test LinearFlickMenu</string>
+    <string name="test_ram">Test RotatingArcMenu</string>
+
+    <string name="activity_arc_menu">ArcMenuActivityTest</string>
+    <string name="activity_flick_menu">FlickMenuActivityTest</string>
+</resources>
